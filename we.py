@@ -14,7 +14,7 @@ class WeatherApp:
         self.root.geometry("900x650+300+200")  # Increased height for the forecast
         self.root.resizable(False, False)
         self.api_key = "60b0f6ab7eefc9117a3c55fbee8f0ffb"  # Updated API key
-    
+        
         self.setup_ui()
     
     def setup_ui(self):
@@ -182,5 +182,3 @@ if __name__ == "__main__":
     root = Tk()
     app = WeatherApp(root)
     root.mainloop()
-
-
